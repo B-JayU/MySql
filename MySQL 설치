@@ -1,0 +1,16 @@
+// 최신 버전으로 업데이트
+brew update
+
+// 설치할 MySQL 버전 확인하기
+brew search mysql
+
+// 원하는 버전의 MySQL을 설치
+brew install mysql
+
+// 설치되 MySQL 데이 디렉터리 확인
+ls -al /usr/local/var/mysql
+
+//  Homebrew MySQL 서비스 시작 
+brew services start mysql
+
+
